@@ -10,7 +10,7 @@ a {
 header img {
    float: left
 }
-header h1 {
+header h2 {
     font-style: italic;
     color:#4682b4;
     font-size: 300%;
@@ -37,6 +37,7 @@ section a:focus {
 
 /* Aside */
 aside h2 {
+    font-weight: bold;
     color: #800000;
 }
 

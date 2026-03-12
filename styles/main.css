@@ -37,11 +37,11 @@ section a:focus {
 
 /* Aside */
 aside h2 {
-    font-weight: bold;
     color: #800000;
 }
 
 aside ul {
+    font-weight: bold;
     line-height: 1.5;
 }
 

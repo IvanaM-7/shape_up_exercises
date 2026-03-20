@@ -42,13 +42,18 @@ header h1 {
     padding: 0;
 }
 
+header h2 {
+    font-size: 260%
+    margin: 0 0 1em 0;
+     padding: .5em 0 1em 0;
+}
 header h3 {
     font-size: 245%
     margin: 0 0 1em 0;
      padding: .5em 0 1em 0;
 }
 
-header h1, header h3 {
+header h1, header h2, header h3 {
     line-height: 1.2;
 }
 

@@ -26,8 +26,8 @@ a {
 
 header img {
    float: left;
-   height: 40%
-   width: 40%;
+   height: 10%;
+   width: 10%;
    padding: .5em;
 }
 
@@ -39,8 +39,8 @@ header h1 {
 }
 
 header h3 {
-    font-size: 195%
-    margin: 0 0 .5% 0,
+    font-size: 195%;
+    margin: 0 0 .5% 0;
     padding: .5em 0 1em 0;
 }
 

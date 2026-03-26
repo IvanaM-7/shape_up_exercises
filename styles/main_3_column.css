@@ -57,6 +57,7 @@ main {
     clear: left;
     padding: 0 1em 0 1em;
     display: flex;
+    flex-direction: row;
 }
 
 /* section links */

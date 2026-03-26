@@ -18,16 +18,17 @@ a {
 }
 
 /* Header */
-header {                                       
+ header {                                       
     background: linear-gradient(white, lightsteelblue);
-    background-color: steelblue;
-    border-bottom: 3px solid steelblue;
-    padding: .5%;
+    border-bottom: 2px solid steelblue;
+    padding: 15px 25px;
 }
 
 header img {
    float: left;
-   width: clamp(100px, 100%, 120px);
+   height: 40%;
+   width: 40%;
+   padding: .5em;
 }
 
 header h1 {
@@ -38,8 +39,8 @@ header h1 {
 }
 
 header h3 {
-    font-size: 195%
-    margin: 0 0 .5% 0,
+    font-size: 195%;
+    margin: 0 0 .5% 0;
     padding: .5em 0 1em 0;
 }
 

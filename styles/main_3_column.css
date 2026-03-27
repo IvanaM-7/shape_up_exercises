@@ -89,9 +89,9 @@ section p {
 
 /* Aside */
 aside {
-    flex-basis: 18%;
+    flex-basis: 20%;
     width: 100%;
-    margin: 20px 5px 0;
+    margin: 20px 8px 0;
     border: 3px solid steelblue;
     border-radius: 25px;
     padding: 10px 30px;

@@ -28,7 +28,7 @@ header img {
    float: left;
    height: 9%;
    width: 9%;
-   padding: .5em;
+   padding: .5em .5em .5em 0;
 }
 
 header h1 {

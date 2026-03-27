@@ -21,7 +21,7 @@ a {
  header {                                       
     background: linear-gradient(white, lightsteelblue);
     border-bottom: 2px solid steelblue;
-    padding: 7px 25px;
+    padding: 10px 25px 5px;
 }
 
 header img {

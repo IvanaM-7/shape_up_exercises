@@ -33,12 +33,12 @@ header h1 {
     font-style: italic;
     color:steelblue;
     font-size: 250%;
-    padding: 1em 0 0 0;
+    padding: -5% 0 0 0;
 }
 
 header h3 {
     font-size: 170%;
-    margin: 0 0 .5% 0;
+    margin: 0 5% .5% 0;
     padding: 0 0 1em 0;
 }
 

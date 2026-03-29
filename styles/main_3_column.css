@@ -35,7 +35,7 @@ header h1 {
     font-style: italic;
     color:steelblue;
     font-size: 250%;
-    padding: 0;
+    padding: 1em 0 0 0;
     margin-top: 5px;
 }
 

@@ -58,7 +58,6 @@ main {
     padding: 0 1em 0 1em;
     display: flex;
     flex-direction: row-reverse;
-    align-items: stretch;
 }
 
 /* section links */

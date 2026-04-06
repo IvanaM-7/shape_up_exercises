@@ -9,6 +9,7 @@ body {
     width: 100%;
     margin: 0 auto 20px auto;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(100% + 0.3vw);
     background-color: white;
     padding: 0;
 }
@@ -18,45 +19,95 @@ a {
 }
 
 /* Header */
- header {                                       
+header {                                       
     background: linear-gradient(white, lightsteelblue);
-    border-bottom: 2px solid steelblue;
-    padding: 2px 25px 0px;
+    background-color: steelblue;
+    border-bottom: 3px solid steelblue;
+    padding: .7%;
 }
 
 header img {
    float: left;
    width: clamp(100px, 100%, 120px);
-   margin: .5em 2em .5em 0;
 }
 
 header h1 {
     font-style: italic;
     color:steelblue;
-    font-size: 250%;
-    margin-top: .2em;
+    font-size: 200%;
+    padding: 0;
 }
 
 header h3 {
-    font-size: 170%;
-    margin: 0 15px .5% 10px;
-    padding: 0 0 1em 0;
+    font-size: 195%
+    margin: 0 0 .5% 0,
+    padding: .5em 0 1em 0;
 }
 
 header h1, header h3 {
-    line-height: 1.5;
+    line-height: 1.2;
 }
 
 blockquote{
     padding-left: 1.5em;
 }
 
+/* the styles for the nav*/
+nav {
+	background-color: steelblue;
+	width: 100%;
+}
+
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	list-style-type: none;
+
+& a {
+    text-decoration: none;
+	color: white;
+	display: block;
+	padding: .5em 1em;
+	margin: .5em 1em;
+}
+}
+
+.menu li:has(.submenu){
+	position: relative;
+    & small {
+        margin-left: .25em;
+    }
+	&:hover > .submenu {
+	   display: block;
+	}
+} 
+
+.submenu {
+	position: absolute;
+	list-style-type: none;
+	left: 0;
+    width: 160%;
+	display: none;
+	background-color: steelblue;
+}
+
+a:hover, a:focus {
+   text-decoration: underline;
+   }
+
+a.current {
+    border: 2px solid;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
 /* Main */
 main {
     clear: left;
     padding: 0 1em 0 1em;
     display: flex;
-    width: 100%;
 }
 
 /* section links */
@@ -65,20 +116,11 @@ section {
     margin: 0.5em;
     line-height: 1.5;
     padding: 0 8px;
-    flex-basis: 82%;
+    flex-basis: 70%;
 }
 
 h2 {
     margin: .5em 0 .5em 0;
-}
-
-section a:link,
-section a:visited {
-    color: #800000;
-}
-section a:hover,
-section a:focus {
-    color: #4682b4;
 }
 
 section p {
@@ -88,13 +130,17 @@ section p {
 
 /* Aside */
 aside {
-    flex-basis: 18%;
+    flex-basis: 30%;
     width: 100%;
     margin-top: 20px;
-    margin-left: 15px;
+    margin-left: 10px;
+    flex-basis: 20%;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
     border: 3px solid steelblue;
     border-radius: 25px;
-    padding: 10px 35px;
+    padding: 10px 15px;
     height: fit-content;
     background-color: white;
 }
@@ -105,6 +151,8 @@ aside h2 {
 }
 
 aside ul {
+    list-style-type: circle;
+    margin-left: 20px;
     list-style-type: disc;
     margin-left: 20px;
     line-height: 1.5;

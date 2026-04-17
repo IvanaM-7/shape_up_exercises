@@ -217,7 +217,10 @@ aside {
     flex-basis: 20%;
     height: fit-content;
     }
+}
 
+    /* Large-screen media query */
+@media screen and (min-width: 1035px) {
 .menu {
     position: relative;
     display: flex;

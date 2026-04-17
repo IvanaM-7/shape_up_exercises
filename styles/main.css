@@ -57,6 +57,10 @@ nav {
     position: relative;
 	background-color: steelblue;
 	width: 100%;
+    & ul {
+		list-style-type: none;
+		margin: 0;
+	}
 }
 & a {
     text-decoration: none;

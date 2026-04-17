@@ -108,6 +108,7 @@ main {
     clear: left;
     padding: 0 1em 0 1em;
     display: flex;
+    flex-direction: column;
 }
 
 /* section links */
@@ -178,3 +179,4 @@ footer {
     font-size: 85%;
     margin-top: 1.5em;
 }
+

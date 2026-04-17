@@ -200,3 +200,37 @@ footer {
     margin-top: 1.5em;
 }
 
+* Large-screen media query */
+@media screen and (min-width: 768px) {
+main {
+flex-direction: row;
+}
+aside {
+    flex-basis: 30%;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+    flex-basis: 20%;
+    height: fit-content;
+    }
+
+.menu {
+    position: relative;
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	list-style-type: none;
+}
+.menu-btn { display: none; }
+#checkbox-toggle:checked ~ .menu { display: flex; }
+
+ /*change triangle direction*/
+ .menu li:has(.submenu) small::after {
+	content: "\25bc"; /*down triangle*/
+ }
+ .submenu {
+	top: auto; /*remove mobile first value*/
+	left: 0;
+	width: 200%;
+ }
+}

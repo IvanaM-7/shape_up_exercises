@@ -178,6 +178,10 @@ aside ul {
     line-height: 1.2;
 }
 
+aside li {
+    white-space: nowrap;
+}
+
 aside a:link,
 aside a:visited {
     color: #4682b4;   

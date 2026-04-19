@@ -172,9 +172,8 @@ aside h2 {
 }
 
 aside ul {
-    list-style-type: circle;
     margin-left: 20px;
-    list-style-type: disc;
+    list-style-type: circle;
     margin-left: 20px;
     line-height: 1.5;
 }

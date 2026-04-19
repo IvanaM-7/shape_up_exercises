@@ -167,12 +167,12 @@ aside {
 }
 aside h2 {
     color: #800000;
-    margin-bottom: 0;
     margin-bottom: 10px;
     text-align: left;
 }
 
 aside ul {
+     margin-bottom: 0;
     margin-left: 20px;
     list-style-type: disc;
     line-height: 1.2;

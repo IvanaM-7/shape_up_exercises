@@ -166,6 +166,7 @@ aside {
 }
 aside h2 {
     color: #800000;
+    margin-bottom: 0;
     margin-bottom: 10px;
     text-align: left;
 }
@@ -173,7 +174,7 @@ aside h2 {
 aside ul {
     margin-left: 20px;
     list-style-type: disc;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 
 aside a:link,

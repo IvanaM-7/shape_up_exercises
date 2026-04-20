@@ -206,11 +206,11 @@ flex-direction: row;
 }
 
 section {
-flex-basis: 65%;
+flex-basis: 70%;
 }
 
 aside {
-    flex-basis: 35%;
+    flex-basis: 30%;
     }
 }
 

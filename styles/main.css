@@ -131,6 +131,7 @@ main {
     clear: left;
     padding: 0 1em 0 1em;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 

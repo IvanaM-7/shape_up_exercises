@@ -192,11 +192,11 @@ aside {
 
 & aside ul {
     list-style-type: disc;
-    margin: 0 0 4px 20px;
+    margin: 0 0 6px 20px;
     }
 
 & aside li {
-    margin-bottom: 2px;
+    margin-bottom: 4px;
     }
     
 aside a:link,

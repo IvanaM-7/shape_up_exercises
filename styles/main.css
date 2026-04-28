@@ -140,20 +140,8 @@ section {
     line-height: 1.5;
     padding: 0 8px;
     flex-basis: 70%;
-}
 
-h2 {
-    margin: .5em 0 .5em 0;
-}
-
-h3 {color: #800000;}
-
-section p {
-    margin-bottom: 10px;
-    line-height: 1.5;
-}
-
-& ul {
+    & ul {
 		list-style-type: square;
 		margin: 0.6em 6.1em 1em;
 	}
@@ -171,7 +159,22 @@ section p {
 	}
 	& li {
 		margin: 0.2em 0.25em 1em;
-	}
+	} 
+    
+}
+
+h2 {
+    margin: .5em 0 .5em 0;
+}
+
+h3 {color: #800000;}
+
+section p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+
 
 /* Aside */
 aside {

@@ -184,7 +184,7 @@ aside {
 
 & aside h2 {
     color: #800000;
-    margin-bottom: 10px;
+    margin: 0 0 10px 5px;
     text-align: left;
     }
 
@@ -192,8 +192,6 @@ aside {
     list-style-type: disc;
     margin-left: 20px;
     }
-
-
 
 aside a:link,
 aside a:visited {

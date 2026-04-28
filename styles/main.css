@@ -193,9 +193,7 @@ aside {
     margin-left: 20px;
     }
 
-& aside li {
-    margin: 0 40px 3px 0;
-    }
+
 
 aside a:link,
 aside a:visited {

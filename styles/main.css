@@ -208,6 +208,10 @@ aside a:focus {
 }
 } 
 
+.strength-page aside ul{
+    list-style-type: none;
+}
+
 /* footer */
 footer {
     background-color: steelblue;

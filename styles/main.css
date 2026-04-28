@@ -143,6 +143,7 @@ section {
 
     & ul {
 		list-style-type: square;
+        margin-left: 0.5em;
 	}
 	& a {
 		color: #800000;

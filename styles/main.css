@@ -196,7 +196,7 @@ aside {
     }
 
 & aside li {
-    padding-bottom: 4px;
+    margin-left: -0.5px;
     }
     
 aside a:link,

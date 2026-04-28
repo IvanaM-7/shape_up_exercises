@@ -194,7 +194,10 @@ aside ul {
     margin-left: 20px;
 }
 
-
+.strength-page aside ul {
+    list-style-type: none;
+    margin-left: 10px;
+} 
 
 & aside li {
     margin: 0 -40px -20px 0;
@@ -211,11 +214,6 @@ aside a:focus {
     color: #800000;
     text-decoration: underline;
 }
-
-.strength-page aside ul {
-    list-style-type: none;
-    margin-left: 10px;
-} 
 
 /* footer */
 footer {

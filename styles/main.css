@@ -214,6 +214,7 @@ aside a:focus {
 
 .strength-page aside ul{
     list-style-type: none;
+    margin-left: 10px;
 } 
 
 /* footer */

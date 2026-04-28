@@ -211,7 +211,7 @@ aside a:focus {
     text-decoration: underline;
     }
 
-& .strength-page aside ul {
+aside.strength-page ul {
     list-style-type: none;
 }
 

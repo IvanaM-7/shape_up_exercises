@@ -162,7 +162,9 @@ h2 {
     margin: .5em 0 .5em 0;
 }
 
-h3 {color: #800000;}
+h3 {color: #800000;
+margin: 2px 0 0.5px 0;
+}
 
 section p {
     margin-bottom: 10px;

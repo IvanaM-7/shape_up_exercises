@@ -174,7 +174,7 @@ section p {
 aside {
     flex-basis: 15%;
     width: 100%;
-    margin: 20px 0 0 0;
+    margin: 25px 0 0 0;
     border: 3px solid steelblue;
     border-radius: 25px;
     padding: 10px 15px;
@@ -184,7 +184,7 @@ aside {
 
 & aside h2 {
     color: #800000;
-    margin: 0 0 10px 5px;
+    margin: 1px 0 10px 5px;
     text-align: left;
     }
 

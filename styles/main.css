@@ -179,7 +179,7 @@ aside {
     margin: 25px 0 0 0;
     border: 3px solid steelblue;
     border-radius: 25px;
-    padding: 10px 15px;
+    padding: 15px 20px;
     height: fit-content;
     background-color: white;
 }
@@ -193,7 +193,6 @@ aside {
 & aside ul {
     list-style-type: disc;
     margin: 0 0 1px 20px;
-    padding: 2px 5px 2px 5px;
     }
 
 & aside li {

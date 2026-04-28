@@ -180,22 +180,16 @@ aside {
     height: fit-content;
     background-color: white;
 
-    & strength.ul {
-    list-style-type: none;
-}
-}
-aside h2 {
+& aside h2 {
     color: #800000;
     margin-bottom: 10px;
     text-align: left;
-}
+    }
 
-aside ul {
+ & aside ul {
     list-style-type: disc;
     margin-left: 20px;
 }
-
-
 
 & aside li {
     margin: 0 -40px -20px 0;
@@ -212,6 +206,7 @@ aside a:focus {
     color: #800000;
     text-decoration: underline;
 }
+} 
 
 /* footer */
 footer {

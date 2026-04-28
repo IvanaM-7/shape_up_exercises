@@ -140,7 +140,7 @@ section {
     margin: 0.5em;
     line-height: 1.5;
     padding: 0 8px;
-    flex-basis: 80%;
+    flex-basis: 85%;
 
     & ul {
 		list-style-type: square;
@@ -172,7 +172,7 @@ section p {
 
 /* Aside */
 aside {
-    flex-basis: 20%;
+    flex-basis: 15%;
     width: 100%;
     margin: 20px 20px 0 0;
     border: 3px solid steelblue;

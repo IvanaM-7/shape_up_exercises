@@ -184,7 +184,7 @@ aside {
     background-color: white;
 }
 
-    & h2 {
+& aside h2 {
     color: #800000;
     margin-bottom: 10px;
     text-align: left;

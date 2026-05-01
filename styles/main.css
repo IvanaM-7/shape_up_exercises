@@ -179,12 +179,14 @@ section p {
 figure {
 	float: left;
 	margin: .25em .5em 1em 0;}
-    & img {width: min(100%, 225px);}
+    & img {
+        width: 50%;
+    }
 	& figcaption {
 		margin-bottom: .5em;
-		display: block;
+		display: flex;
 		font-weight: bold;
-        border-bottom: 2px solid #4682b4;
+        border-bottom: 3px solid #4682b4;
 	}
 
 /* Aside */

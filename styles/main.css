@@ -173,6 +173,7 @@ section p {
 figure {
 	float: left;
 	margin: .25em .5em 1em 0;}
+    & img {width: min(100%, 225px);}
 	& figcaption {
 		margin-bottom: .5em;
 		display: block;

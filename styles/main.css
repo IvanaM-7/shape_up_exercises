@@ -176,6 +176,10 @@ section p {
 }
 
 /*Article */
+
+article p {
+    float: left;
+}
 figure {
 	float: left;
 	margin: .25em .5em 1em 0;}

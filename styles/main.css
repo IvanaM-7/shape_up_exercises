@@ -190,6 +190,9 @@ figure {
         border-bottom: 3px solid #4682b4;
 	}
 
+    article {
+        clear: left;
+    }
 /* Aside */
 aside {
     flex-basis: 15%;

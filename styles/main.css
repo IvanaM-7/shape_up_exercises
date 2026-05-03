@@ -175,6 +175,10 @@ section p {
     margin-bottom: 10px;
 }
 
+section h3 {
+    clear: left;
+}
+
 /*Article */
 
 figure {
@@ -194,22 +198,6 @@ figure figcaption {
     border-bottom: 3px solid #4682b4;
     padding-bottom: .25em;
 }
-
-/*figure {
-	float: left;
-	margin: .25em .5em 1em 0;
-    & img {
-        width: min(100%, 350px);
-    }
-}
-
-figure figcaption {
-     width: min(100%, 350px);
-     display: block;
-	margin-bottom: .5em;
-	font-weight: bold;
-    border-bottom: 3px solid #4682b4;
-	} */ 
 
 /* Aside */
 aside {

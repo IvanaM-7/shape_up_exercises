@@ -178,10 +178,11 @@ section p {
 /*Article */
 figure {
 	float: left;
-	margin: .25em .5em 1em 0;}
+	margin: .25em .5em 1em 0;
     & img {
         width: min(100%, 350px);
     }
+}
 	& figcaption {
         width: min(100%, 350px);
         display: block;
@@ -190,7 +191,6 @@ figure {
 		font-weight: bold;
         border-bottom: 3px solid #4682b4;
 	}
-
 /* Aside */
 aside {
     flex-basis: 15%;

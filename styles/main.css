@@ -176,7 +176,26 @@ section p {
 }
 
 /*Article */
+
 figure {
+    float: left;
+    margin: .25em .5em 1em 0;
+    width: 350px;
+}
+
+figure img {
+    width: 100%;
+}
+
+figure figcaption {
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: .5em;
+    border-bottom: 3px solid #4682b4;
+    padding-bottom: .25em;
+}
+
+/*figure {
 	float: left;
 	margin: .25em .5em 1em 0;
     & img {
@@ -190,7 +209,8 @@ figure figcaption {
 	margin-bottom: .5em;
 	font-weight: bold;
     border-bottom: 3px solid #4682b4;
-	}
+	} */ 
+
 /* Aside */
 aside {
     flex-basis: 15%;

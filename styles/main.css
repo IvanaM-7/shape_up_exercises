@@ -183,7 +183,8 @@ figure {
         width: min(100%, 350px);
     }
 }
-	& figcaption {
+
+figure figcaption {
         width: min(100%, 350px);
         display: block;
         flex-wrap: wrap;

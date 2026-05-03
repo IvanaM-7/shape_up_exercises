@@ -135,6 +135,7 @@ a.current {
 /* Main */
 main {
     padding: 0 1em 0 1em;
+    clear: left;
     display: flex;
     flex-direction: column;
 }

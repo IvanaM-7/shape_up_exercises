@@ -181,7 +181,7 @@ figure {
 	float: left;
 	margin: .25em .5em 1em 0;}
     & img {
-        width: min(100%, 225px);
+        width: min(100%, 350px);
     }
 	& figcaption {
         width: min(100%, 225px);

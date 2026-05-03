@@ -184,6 +184,7 @@ figure {
         width: min(100%, 225px);
     }
 	& figcaption {
+        width: min(100%, 225px);
         flex-wrap: wrap;
 		margin-bottom: .5em;
 		font-weight: bold;

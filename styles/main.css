@@ -143,7 +143,6 @@ main {
 section {
     width: 100%;
     margin: 0.5em;
-    clear: left;
     line-height: 1.5;
     padding: 0 8px;
     flex-basis: 85%;

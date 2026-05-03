@@ -176,6 +176,7 @@ section p {
 }
 
 /*Article */
+article {display: flex;}
 figure {
 	float: left;
 	margin: .25em .5em 1em 0;}

@@ -188,6 +188,7 @@ figure {
     }
 	& figcaption {
         width: min(100%, 350px);
+        display: block;
         flex-wrap: wrap;
 		margin-bottom: .5em;
 		font-weight: bold;

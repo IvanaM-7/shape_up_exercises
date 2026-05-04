@@ -16,7 +16,7 @@ body {
 
 @font-face {
     font-family: American Captain;
-    src: url();
+    src: url("fonts/American Captain.ttf");
 }
 /* hreft */
 a {

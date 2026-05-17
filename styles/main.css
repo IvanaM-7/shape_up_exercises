@@ -263,6 +263,7 @@ section {
 flex-basis: 70%;
 }
 
+table {flex-basis: 70%;}
 aside {
     flex-basis: 30%;
     }

@@ -259,7 +259,7 @@ main {
 flex-direction: row;
 }
 
-section, table {
+section {
 flex-basis: 70%;
 }
 

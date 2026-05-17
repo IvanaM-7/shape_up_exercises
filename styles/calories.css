@@ -16,7 +16,7 @@ table {
 				/*Thead color font*/
 	thead th {
 		color: white;}
-		
+
 		th, td {
 			border: none;
 			padding: .35em 1em .35em .5em;
@@ -90,4 +90,8 @@ table {
 	tbody tr:nth-child(25) td:first-child {
 		font-weight: bold;
 	}
+
+	body td:last-child {
+        text-align: left;
+        }
 }

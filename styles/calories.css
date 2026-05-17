@@ -1,11 +1,6 @@
 body {width: 100%;}
 
-main {
-flex-direction: row;
-}
-
 table {
-		width: 60%;
 		margin-left: 1em;
 		margin-right: 1em;
 		border-collapse: collapse;

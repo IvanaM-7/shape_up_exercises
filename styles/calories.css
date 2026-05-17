@@ -11,9 +11,12 @@ table {
 
 			
 		thead {
-			background-color: steelblue;
-			font { color: white;}
-		}
+			background-color: steelblue;}
+
+				/*Thead color font*/
+	thead th {
+		color: white;}
+		
 		th, td {
 			border: none;
 			padding: .35em 1em .35em .5em;

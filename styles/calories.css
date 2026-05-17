@@ -61,12 +61,30 @@ table {
 	        /*Names bold w header font*/
 	tbody tr:first-child td:nth-child(2),
 	tbody tr:nth-child(4) td:nth-child(2),
-	tbody tr:nth-child(6) td:nth-child(2),
+	tbody tr:nth-child(7) td:nth-child(2),
+	tbody tr:nth-child(10) td:first-child,
+	tbody tr:nth-child(14) td:first-child,
+	tbody tr:nth-child(16) td:first-child,
+	tbody tr:nth-child(19) td:first-child,
 	        /*Names bold w/o header font*/
 	tbody tr:nth-child(2) td:first-child,
 	tbody tr:nth-child(3) td:first-child,
 	tbody tr:nth-child(5) td:first-child,
-	tbody tr:nth-child(7) td:first-child {
+	tbody tr:nth-child(6) td:first-child,
+	tbody tr:nth-child(8) td:first-child,
+	tbody tr:nth-child(9) td:first-child,
+	tbody tr:nth-child(11) td:first-child,
+	tbody tr:nth-child(12) td:first-child,
+	tbody tr:nth-child(13) td:first-child,
+	tbody tr:nth-child(15) td:first-child,
+	tbody tr:nth-child(17) td:first-child,
+	tbody tr:nth-child(18) td:first-child,
+	tbody tr:nth-child(20) td:first-child,
+	tbody tr:nth-child(21) td:first-child,
+	tbody tr:nth-child(22) td:first-child,
+	tbody tr:nth-child(23) td:first-child,
+	tbody tr:nth-child(24) td:first-child,
+	tbody tr:nth-child(25) td:first-child {
 		font-weight: bold;
 	}
 }

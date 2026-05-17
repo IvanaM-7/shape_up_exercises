@@ -92,7 +92,38 @@ table {
 		font-weight: bold;
 	}
 
-	body td:last-child {
+
+	/*Last row captions w header*/
+	tbody tr:first-child td:nth-of-type(4)::after,
+	tbody tr:nth-child(4) td:nth-of-type(4)::after,
+    tbody tr:nth-child(7) td:nth-of-type(4)::after,
+	tbody tr:nth-child(10) td:nth-of-type(4)::after,
+    tbody tr:nth-child(14) td:nth-of-type(4)::after,
+	tbody tr:nth-child(16) td:nth-of-type(4)::after,
+    tbody tr:nth-child(19) td:nth-of-type(4)::after,
+         /*Last row captions w/o header*/
+    tbody tr:nth-child(2) td:nth-of-type(3)::after,
+	tbody tr:nth-child(3) td:nth-of-type(3)::after,
+	tbody tr:nth-child(5) td:nth-of-type(3)::after,
+	tbody tr:nth-child(6) td:nth-of-type(3)::after,
+	tbody tr:nth-child(8) td:nth-of-type(3)::after,
+	tbody tr:nth-child(9) td:nth-of-type(3)::after,
+	tbody tr:nth-child(11) td:nth-of-type(3)::after,
+	tbody tr:nth-child(12) td:nth-of-type(3)::after,
+	tbody tr:nth-child(13) td:nth-of-type(3)::after,
+	tbody tr:nth-child(15) td:nth-of-type(3)::after,
+	tbody tr:nth-child(17) td:nth-of-type(3)::after,
+	tbody tr:nth-child(18) td:nth-of-type(3)::after,
+	tbody tr:nth-child(20) td:nth-of-type(3)::after,
+	tbody tr:nth-child(21) td:nth-of-type(3)::after,
+	tbody tr:nth-child(22) td:nth-of-type(3)::after,
+	tbody tr:nth-child(23) td:nth-of-type(3)::after,
+	tbody tr:nth-child(24) td:nth-of-type(3)::after,
+	tbody tr:nth-child(25) td:nth-of-type(3)::after {
+		content: " Calories";
+	    display: block;}
+
+	tbody td:last-child {
         text-align: left;
         }
 	}

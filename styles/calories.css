@@ -1,6 +1,6 @@
 table {
 			border-collapse: collapse;
-			border: 3px solid black;
+			border: 2.5px solid black;
 		}
 		caption { font-weight: bold;
 			font-weight: bold;
@@ -9,7 +9,6 @@ table {
 			margin-top: 0.7em;
 	        padding-bottom: .3em;
 			color: #800000;}
-
 			
 		thead {
 			background-color: steelblue;}

@@ -1,6 +1,6 @@
 table {
 			border-collapse: collapse;
-			border: 1px solid black;
+			border: 2px solid black;
 		}
 		caption { font-weight: bold;
 			font-weight: bold;
@@ -12,26 +12,22 @@ table {
 			
 		thead {
 			background-color: steelblue;
-			font{ color: white;}
+			font { color: white;}
 		}
 		th, td {
-			border-bottom: 1px solid black;
-			border-top: 1px solid black;
+			border: none;
 			padding: .35em 1em .35em .5em;
 			text-align: left;
 			vertical-align: middle;
 		}
 		tr:first-child td:first-child,
 		tr:nth-child(4) td:first-child,
-		tr:nth-child(6) td:first-child {vertical-align: top;
+		tr:nth-child(7) td:first-child,
+		tr:nth-child(10) td:first-child,
+		tr:nth-child(14) td:first-child,
+		tr:nth-child(16) td:first-child,
+		tr:nth-child(19) td:first-child {vertical-align: top;
 		        font-weight: bold;}									
-				
-	     tfoot {background-color: lightgreen;
-	     }
-		 
-	     tfoot th {text-align: right;}
-		 tfoot td {text-align: right;
-	       font-weight: bold;}
 
        body td:last-child {
         text-align: right;
@@ -49,46 +45,28 @@ table {
 	th, td {display: block;}
 
      /*borders*/
-	tbody td {border-bottom: none;}
 	thead {display: none;}
 
-           /*Names gray w header color*/
+          /*Headers backgroud*/
+	tbody tr:first-child td:first-child,
+	tbody tr:nth-child(4) td:first-child,
+	tbody tr:nth-child(7) td:first-child,
+	tbody tr:nth-child(10) td:first-child,
+	tbody tr:nth-child(14) td:first-child,
+	tbody tr:nth-child(16) td:first-child,
+	tbody tr:nth-child(19) td:first-child {
+	background-color: steelblue;}
+
+
+	        /*Names bold w header font*/
 	tbody tr:first-child td:nth-child(2),
 	tbody tr:nth-child(4) td:nth-child(2),
 	tbody tr:nth-child(6) td:nth-child(2),
-	        /*Names gray w/o header color*/
+	        /*Names bold w/o header font*/
 	tbody tr:nth-child(2) td:first-child,
 	tbody tr:nth-child(3) td:first-child,
 	tbody tr:nth-child(5) td:first-child,
 	tbody tr:nth-child(7) td:first-child {
-		background-color: lightgray;
+		font-weight: bold;
 	}
-          /*Headers backgroud*/
-	tbody tr:first-child td:first-child {background-color: lightgreen;
-	border-bottom: none;
-    border-top: none;}
-	tbody tr:nth-child(4) td:first-child,
-	tbody tr:nth-child(6) td:first-child {background-color: lightgreen;
-	border-bottom: none;}
-         /*Last row captions w header*/
-	tbody tr:first-child td:nth-of-type(4)::before,
-	tbody tr:nth-child(4) td:nth-of-type(4)::before,
-    tbody tr:nth-child(6) td:nth-of-type(4)::before,
-         /*Last row captions w/o header*/
-    tbody tr:nth-child(2) td:nth-of-type(3)::before,
-	tbody tr:nth-child(3) td:nth-of-type(3)::before,
-	tbody tr:nth-child(5) td:nth-of-type(3)::before,
-	tbody tr:nth-child(7) td:nth-of-type(3)::before {
-		content: "Years of Service: ";
-	    display: block;}
-        /*float: left;}*/
-	
-	          /*tfoot*/
-	tfoot th {display: none;}
-	tfoot td {background-color: lightgreen;
-	border-bottom: none;
-        display: flex;
-        justify-content: space-between;}
-	tfoot td::before {content: "Total Years of Service: "}
-
 }

@@ -5,9 +5,9 @@ table {
 		caption { font-weight: bold;
 			font-weight: bold;
 			text-align: center;
-		    font-size: 135%;
-			margin-top: 1em;
-	        padding-bottom: .1em;
+		    font-size: 140%;
+			margin-top: 0.7em;
+	        padding-bottom: .3em;
 			color: #800000;}
 
 			
@@ -96,4 +96,4 @@ table {
 	body td:last-child {
         text-align: left;
         }
-}
+	}

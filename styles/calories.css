@@ -6,11 +6,13 @@ table {
 			font-weight: bold;
 			text-align: center;
 		    font-size: 135%;
-	        padding-bottom: .5em;}
+	        padding-bottom: .5em;
+			color: #800000;}
 
 			
 		thead {
-			background-color: lightgreen;
+			background-color: steelblue;
+			font{ color: white;}
 		}
 		th, td {
 			border-bottom: 1px solid black;

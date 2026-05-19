@@ -294,6 +294,10 @@ textarea {
     margin-bottom: .25em;
 }
 
+input[type="radio"], input[type="checkbox"] {
+    margin-right: .5em;
+}
+
 button {
     font-size: inherit;
     font-weight: bold;

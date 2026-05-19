@@ -283,7 +283,7 @@ color:#800000;}
 fieldset {padding: .5em 1em;
 margin-bottom: .5em;}
 
-form label {
+.meal-form label {
     display: block;
 }
 
@@ -299,13 +299,13 @@ textarea {
     margin-bottom: .25em;
 }
 
-form input[type="radio"], form input[type="checkbox"] {
+.meal-form input[type="radio"], .meal-form input[type="checkbox"] {
     margin: 0 .25em 0 .75em;
     width: auto;
 }
 
-form input[type="radio"] + label,
-form input[type="checkbox"] + label {
+.meal-form input[type="radio"] + label,
+.meal-form input[type="checkbox"] + label {
     display: inline;
     margin-right: .5em;
 }

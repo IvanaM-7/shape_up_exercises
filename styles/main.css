@@ -264,6 +264,10 @@ select {
     border-radius: 5px;
 }
 
+input[type="text"] {
+    width: 100%;
+}
+
 input {
     font-size: inherit;
     padding: .2em;

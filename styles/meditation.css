@@ -1,7 +1,7 @@
 video {
     float: left;
     margin: .25em .5em 1em 0;
-    width: 650px;    
+   width: clamp(300px, 100%, 800px);    
 }
 
 h3 {clear: left;}

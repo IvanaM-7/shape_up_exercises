@@ -283,6 +283,7 @@ label {
     display: block;
 }
 
+.required {color: red;}
 input:required:invalid {border-color: red;}
 
 textarea {

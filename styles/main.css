@@ -296,7 +296,8 @@ textarea {
 }
 
 input[type="radio"], input[type="checkbox"] {
-    margin-right: 0 .25em 0 .75em;;
+    margin-right: 0 .25em 0 .75em;
+    width: auto;
 }
 
 input[type="radio"] + label,

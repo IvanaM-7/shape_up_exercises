@@ -9,4 +9,5 @@ h3 {clear: left;}
 audio {
     display: block;
     margin: .25em .5em 1em 0;
+    width: 100%;
 }

@@ -299,7 +299,7 @@ textarea {
     margin-bottom: .25em;
 }
 
-input[type="radio"], input[type="checkbox"] {
+input[type="radio"], input[type="checkbox.form"] {
     margin-right: 0 .25em 0 .75em;
     width: auto;
 }

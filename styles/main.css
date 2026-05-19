@@ -291,7 +291,7 @@ textarea {
     height: 8em;
     font-family: inherit;
     font-size: inherit;
-    margin-bottom: .25emS;
+    margin-bottom: .25em;
 }
 
 button {
@@ -303,10 +303,10 @@ button {
     padding: .5em;
 }
 
-.button-submit {background-color: green;}
-.button-reset {background-color: red;}
+.button-submit {background-color: #4682b4;}
+.button-reset {background-color: #800000;}
 
-.button-submit:hover {background-color: lightgreen;}
+.button-submit:hover {background-color: lightblue;}
 .button-reset:hover {background-color: lightsalmon;}
 
 input, button {border-radius: 5px;}

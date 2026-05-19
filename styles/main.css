@@ -254,11 +254,65 @@ footer {
 }
 
         /* form */ 
+form, input, select {
+    width:100%;
+}
+select {
+    font-size: inherit;
+    padding: .25em;
+    margin-bottom: .5em;
+    border-radius: 5px;
+}
+
+input {
+    font-size: inherit;
+    padding: .2em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+legend {font-size: 1.2em;
+margin-bottom: 0.5em;
+font-weight: bold;}
+
+fieldset {padding: .5em 1em;
+margin-bottom: .5em;}
+
+label {
+    display: block;
+}
+
+input:required:invalid {border-color: red;}
+
+textarea {
+    width: 100%;
+    padding: .2em;
+    height: 8em;
+    font-family: inherit;
+    font-size: inherit;
+    margin-bottom: .25emS;
+}
+
+button {
+    font-size: inherit;
+    font-weight: bold;
+    color: white;
+    width: 8em;
+    margin-top: .5em;
+    padding: .5em;
+}
+
+.button-submit {background-color: green;}
+.button-reset {background-color: red;}
+
+.button-submit:hover {background-color: lightgreen;}
+.button-reset:hover {background-color: lightsalmon;}
+
+input, button {border-radius: 5px;}
 
 
 
 
-        
 /* Large-screen media query */
 @media screen and (min-width: 768px) {
 main {

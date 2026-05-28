@@ -358,6 +358,15 @@ aside {
 
     /* Large-screen media query */
 @media screen and (min-width: 1035px) {
+section {
+	grid-column: 1 / 3;
+	grid-row: 2 / 4;
+}
+
+aside {
+    grid-column: 3 / 4;
+	grid-row: 2 / 4;
+}
 .menu {
     position: relative;
     display: flex;

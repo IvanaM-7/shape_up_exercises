@@ -12,6 +12,9 @@ body {
     font-size: calc(100% + 0.3vw);
     background-color: white;
     padding: 0;
+    display: grid;
+	grid-template-columns: repeat(12, fr);
+	grid-template-rows: auto auto auto;
 }
 
 @font-face {
@@ -24,7 +27,9 @@ a {
 }
 
 /* Header */
-header {                                       
+header {              
+    grid-column: 1 / 13;
+	grid-row: 1 / 2;                         
     background: linear-gradient(white, lightsteelblue);
     background-color: steelblue;
     border-bottom: 3px solid steelblue;
@@ -60,6 +65,8 @@ blockquote{
 
 /* the styles for the nav*/
 nav {
+    grid-column: 1 / 13;
+	grid-row: 1 / 2;  
     position: relative;
 	background-color: steelblue;
 	width: 100%;
@@ -135,12 +142,14 @@ a.current {
 /* Main */
 main {
     padding: 0 1em 0 1em;
-    display: flex;
-    flex-direction: column;
+   /* display: flex;
+    flex-direction: column;*/
 }
 
 /* section links */
 section {
+    grid-column: 4 / 10;
+	grid-row: 2 / 3;
     width: 100%;
     margin: 0.5em;
     line-height: 1.5;

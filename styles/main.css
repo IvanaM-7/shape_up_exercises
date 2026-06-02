@@ -150,8 +150,7 @@ main {
     grid-template-columns: 1fr;
     grid-template-areas: 
     "section"
-    "aside"
-    ;
+    "aside";
     padding: 0 1em 0 1em;
    /* display: flex;
     flex-direction: column;*/

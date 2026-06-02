@@ -70,7 +70,7 @@ blockquote{
 /* the styles for the nav*/
 nav {
     grid-area: navbar;
-    position: relative;
+    /*position: relative;*/
 	background-color: steelblue;
 	width: 100%;
     & ul {
@@ -383,9 +383,7 @@ aside {
     grid-template-rows: auto;
     grid-template-columns: repeat(5, auto)
     justify-content: space-around;
-	/*flex-wrap: wrap;
-	justify-content: space-evenly;
-	list-style-type: none;*/
+	list-style-type: none;
 }
 .menu-btn { display: none; }
 #checkbox-toggle:checked ~ .menu { display: grid; }

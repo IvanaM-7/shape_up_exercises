@@ -144,6 +144,14 @@ a.current {
 
 /* Main */
 main {
+    grid-column: main;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "section"
+    "aside"
+    ;
     padding: 0 1em 0 1em;
    /* display: flex;
     flex-direction: column;*/

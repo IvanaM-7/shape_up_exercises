@@ -153,8 +153,7 @@ main {
 
 /* section links */
 section {
-    grid-column: 4 / 10;
-	grid-row: 2 / 3;
+    grid-area: section;
     width: 100%;
     margin: 0.5em;
     line-height: 1.5;
@@ -215,9 +214,7 @@ figure figcaption {
 
 /* Aside */
 aside {
-    /*flex-basis: 25%;*/
-    grid-column: 1 / 4;
-	grid-row: 3 / 4;
+    grid-area: aside;
     width: 100%;
     margin: 25px 0 0 0;
     border: 3px solid steelblue;
@@ -261,12 +258,11 @@ aside img {vertical-align: middle;
 }
 /* footer */
 footer {
-    grid-column: 1 / 4;
-	grid-row: 4 / 5;
+    grid-area: footer;
     background-color: steelblue;
     color: white;
     text-align: center;
-    padding: 1.6%;;
+    padding: 1em 1.5em;
     font-size: 85%;
     margin-top: 1.5em;
 }
@@ -349,19 +345,18 @@ input {border-radius: 5px;}
 /* Large-screen media query */
 @media screen and (min-width: 768px) {
 main {
-        grid-template-columns: repeat(12, 1fr);
-        column-gap: 2em;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 40%;
+        grid-template-areas: "section aside";
+        gap: 5%;
     }
-
-    section {
-        grid-column: 1 / 9;
-        grid-row: 1;
-    }
-
-    aside {
+}
+    /*aside {
         grid-column: 9 / 13;
         grid-row: 1;
 }
+
 /*main {
 flex-direction: row;
 }

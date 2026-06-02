@@ -351,7 +351,7 @@ main {
         grid-template-areas: "section aside";
         gap: 5%;
     }
-    
+
     /*aside {
         grid-column: 9 / 13;
         grid-row: 1;
@@ -374,10 +374,13 @@ aside {
 @media screen and (min-width: 1035px) {
 .menu {
     position: relative;
-    display: flex;
-	flex-wrap: wrap;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(5, auto)
+    justify-content: space-around;
+	/*flex-wrap: wrap;
 	justify-content: space-evenly;
-	list-style-type: none;
+	list-style-type: none;*/
 }
 .menu-btn { display: none; }
 #checkbox-toggle:checked ~ .menu { display: flex; }

@@ -70,7 +70,7 @@ blockquote{
 /* the styles for the nav*/
 nav {
     grid-area: navbar;
-    /*position: relative;*/
+    position: relative;
 	background-color: steelblue;
 	width: 100%;
     & ul {
@@ -148,12 +148,10 @@ main {
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: 1fr;
-    grid-template-areas: 
+    grid-template-areas:
     "section"
     "aside";
     padding: 0 1em 0 1em;
-   /* display: flex;
-    flex-direction: column;*/
 }
 
 /* section links */
@@ -163,7 +161,6 @@ section {
     margin: 0.5em;
     line-height: 1.5;
     padding: 0 8px;
-    /*flex-basis: 75%;*/
 
     & ul {
 		list-style-type: square;
@@ -356,23 +353,6 @@ main {
         grid-template-areas: "section aside";
         gap: 5%;
     }
-
-    /*aside {
-        grid-column: 9 / 13;
-        grid-row: 1;
-}
-
-/*main {
-flex-direction: row;
-}
-
-section {
-flex-basis: 70%;
-}
-
-aside {
-    flex-basis: 30%;
-    }*/
 }
 
     /* Large-screen media query */
@@ -386,12 +366,15 @@ aside {
 	list-style-type: none;
 }
 .menu-btn { display: none; }
-#checkbox-toggle:checked ~ .menu { display: grid; }
+#checkbox-toggle:checked ~ .menu {
+    display: grid;
+    }
 
  /*change triangle direction*/
- .menu li:has(.submenu) {position: relative;
+ .menu li:has(.submenu) {
+    position: relative;
     & small::after {
-	content: "\25bc"; /*down triangle*/
+	    content: "\25bc"; /*down triangle*/
  }
 }
  .submenu {

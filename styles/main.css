@@ -377,18 +377,20 @@ aside {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: repeat(5, auto)
-    justify-content: space-around;
+    justify-content: space-evenly;
 	/*flex-wrap: wrap;
 	justify-content: space-evenly;
 	list-style-type: none;*/
 }
 .menu-btn { display: none; }
-#checkbox-toggle:checked ~ .menu { display: flex; }
+#checkbox-toggle:checked ~ .menu { display: grid; }
 
  /*change triangle direction*/
- .menu li:has(.submenu) small::after {
+ .menu li:has(.submenu) {position: relative;
+    & small::after {
 	content: "\25bc"; /*down triangle*/
  }
+}
  .submenu {
 	top: auto; /*remove mobile first value*/
 	left: 0;

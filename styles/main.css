@@ -163,7 +163,7 @@ section {
     margin: 0.5em;
     line-height: 1.5;
     padding: 0 8px;
-    flex-basis: 75%;
+    /*flex-basis: 75%;*/
 
     & ul {
 		list-style-type: square;
@@ -382,7 +382,7 @@ aside {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: repeat(5, auto)
-    justify-content: space-evenly;
+    justify-content: space-around;
 	/*flex-wrap: wrap;
 	justify-content: space-evenly;
 	list-style-type: none;*/

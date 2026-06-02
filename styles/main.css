@@ -351,7 +351,7 @@ main {
         grid-template-areas: "section aside";
         gap: 5%;
     }
-}
+    
     /*aside {
         grid-column: 9 / 13;
         grid-row: 1;

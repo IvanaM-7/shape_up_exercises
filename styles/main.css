@@ -381,21 +381,4 @@ main {
         left: 0;
         width: 140%;
     }
-/*.menu-btn { display: none; }
-#checkbox-toggle:checked ~ .menu {
-    display: grid;
-    }
-
- /*change triangle direction
- .menu li:has(.submenu) {
-    position: relative;
-    & small::after {
-	    content: "\25bc"; /*down triangle
- }
-}
- .submenu {
-	top: auto; /*remove mobile first value
-	left: 0;
-	width: 200%;
- }*/
 }
